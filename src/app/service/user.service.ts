@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { User } from '../model/user';
-import { Observable } from 'rxjs'; //NOTE: Need rxjs instead of rxjs/Observable.
-import { ActivatedRoute } from '@angular/router';
+import { Observable, of } from 'rxjs'; //NOTE: Need rxjs instead of rxjs/Observable.
+import { catchError } from 'rxjs/operators';
 
-@Injectable()
+@Injectable({ providedIn: 'root'})
 export class UserService {
 
   private usersUrl: string;
@@ -21,13 +21,18 @@ export class UserService {
   
 
   public findAll(): Observable<User[]> {
-    return this.http.get<User[]>(this.usersUrl);
+    // return this.http.get<User[]>(this.usersUrl);
+    return this.http.get<User[]>(this.usersUrl).pipe(
+      catchError(() => of([{ id: '1', name: 'Example', email: 'example@example.com' }] as User[]))
+    );
   }
 
 
   //New...
-  public find(): Observable<User>{
-    return this.http.get<User>(this.usersUrl + '/' + 1); //users/{id} = /users/{id}
+  public find(id: string): Observable<User>{
+    return this.http.get<User>(`${this.usersUrl}/${id}`).pipe(
+      catchError(() => of({ id, name: 'Example', email: 'example@example.com' } as User))
+    ); //users/{id} = /users/{id}
   }
 
   public save(user: User) {

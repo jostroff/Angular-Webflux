@@ -1,4 +1,4 @@
-<div class="card my-5">
+<div class="card my-5" *ngIf="user$ | async as user"> <!-- NOTE. Needs *ngIf!-->
   <div class="card-body">
     <table class="table table-bordered table-striped">
       <thead class="thead-dark">
@@ -13,7 +13,17 @@
           <td>{{ user.id }}</td>
           <td>{{ user.name }}</td>
           <td><a href="mailto:{{ user.email }}">{{ user.email }}</a></td>
-        <!-- </tr> -->
+        <!-- </tr> 
+        Registration: 866-211-6588
+        Mass General Boston
+        
+        
+        11:20 October 21st - Sign up virtual, visit with Dr. Wei, 
+        800-745-9683
+        
+        Send link on Patient Gateway, make sure have Zoom, Wei will call.
+        
+        -->
       </tbody>
     </table>
   </div>

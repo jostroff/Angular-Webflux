@@ -15,7 +15,7 @@ import { UserService } from './service/user.service';
     AppComponent,
     UserComponent,
     UserListComponent,
-    UserFormComponent,
+    UserFormComponent
   ],
   imports: [
     BrowserModule,

@@ -20,10 +20,4 @@ export class UserListComponent implements OnInit {
       this.users = data;
     });
   }
-
-  // ngIdOnInit(){
-  //   this.userService.find().subscribe(data => {
-  //     this.users[i] = data;
-  //   });
-  // }
 }
