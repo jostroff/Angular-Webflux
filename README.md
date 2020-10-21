@@ -9,12 +9,19 @@ The purpose of this project was to test variable endpoints with both the Spring 
 Specifically:
 
 angular-client11 has:
+
 	service/user.service.ts -> find()					            NUMBER.
+  
 	user/user.component.ts -> goToUser()							    FUNCTION {id}.
+  
 	user/user.component.html -> ngIf = "user$...		      FIRST LINE CHANGE.
+  
 	app/app.component.html -> "/users/{id}"				        CAN BE {id}.
+  
 	user-form/user-form.component.ts -> goToUser()		    CAN BE {id}.
+  
 	app/app.module.ts -> UserComponent					          NOT NEEDED CHANGE.
+  
 	app/app-routing.module.ts -> path : 'users/{id}'	    NUMBER.
 
 
