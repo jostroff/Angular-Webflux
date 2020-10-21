@@ -10,19 +10,19 @@ Specifically:
 
 angular-client11 has:
 
-	service/user.service.ts -> find()					            NUMBER.
+	service/user.service.ts -> find() - NUMBER
   
-	user/user.component.ts -> goToUser()							    FUNCTION {id}.
+	user/user.component.ts -> goToUser() - FUNCTION {id}.
   
-	user/user.component.html -> ngIf = "user$...		      FIRST LINE CHANGE.
+	user/user.component.html -> ngIf = "user$... - FIRST LINE CHANGE.
   
-	app/app.component.html -> "/users/{id}"				        CAN BE {id}.
+	app/app.component.html -> "/users/{id}" - CAN BE {id}.
   
-	user-form/user-form.component.ts -> goToUser()		    CAN BE {id}.
+	user-form/user-form.component.ts -> goToUser() - CAN BE {id}.
   
-	app/app.module.ts -> UserComponent					          NOT NEEDED CHANGE.
+	app/app.module.ts -> UserComponent - NOT NEEDED CHANGE.
   
-	app/app-routing.module.ts -> path : 'users/{id}'	    NUMBER.
+	app/app-routing.module.ts -> path : 'users/{id}' - NUMBER.
 
 
 
