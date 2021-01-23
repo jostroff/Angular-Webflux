@@ -50,6 +50,8 @@ Notes - In order to run this application, you need the following:
   
   May have to go to package.json, rxjs, change "^6.0.0" or something to "6.0.0".
   
+  Make sure, if using VSCode, that settings (mechanical wheel) -> Color Theme -> Dark+ (default dark).
+  
   Run "ng serve --open" on terminal.
 ```
     
