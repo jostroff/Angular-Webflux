@@ -45,7 +45,7 @@ Notes - In order to run this application, you need the following:
   
   Install Angular on STS as well.
   
-  Make sure also that, before running any Angular application installed on your own machine, you also do "npm install", and then "ng serve" in terminal on that project.
+  Before running any Angular application installed on machine, also do "npm update", "npm install", "npm 
   
   Run "ng serve --open" on terminal.
 ```
