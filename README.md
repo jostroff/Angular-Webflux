@@ -26,9 +26,9 @@ Specifically, angular-client11 has:
 
 Notes - In order to run this application, you need the following:
 
-  `npm installation
+  `npm installation`
   
-  nodejs 10.13 or higher - https://nodejs.org/dist/latest-v10.x/		(node-v10.22.1-win-x64.msi)
+  `nodejs 10.13 or higher - https://nodejs.org/dist/latest-v10.x/		(node-v10.22.1-win-x64.msi)`
   
   npm install @angular/cli
   
@@ -46,7 +46,7 @@ Notes - In order to run this application, you need the following:
   
   Make sure also that, before running any Angular application installed on your own machine, you also do "npm install", and then "ng serve" in terminal on that project.
   
-  Run "ng serve --open" on terminal.`
+  Run "ng serve --open" on terminal.
   
     
 
