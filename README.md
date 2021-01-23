@@ -26,27 +26,29 @@ Specifically, angular-client11 has:
 
 Notes - In order to run this application, you need the following:
 
-  `npm installation`
-  `nodejs 10.13 or higher - https://nodejs.org/dist/latest-v10.x/		(node-v10.22.1-win-x64.msi)`
+```
+  npm installation
   
-  `npm install @angular/cli`
+  nodejs 10.13 or higher - https://nodejs.org/dist/latest-v10.x/		(node-v10.22.1-win-x64.msi)
   
-  `Make sure Control Panel\System and Security\System -> Advanced system settings ->`
+  npm install @angular/cli
   
-  `PATH = C:\Users\jostroff\AppData\Roaming\npm`
+  Make sure Control Panel\System and Security\System -> Advanced system settings ->
   
-  `JAVA_HOME = C:\Program Files\Java\jdk1.8.0_241`
+  PATH = C:\Users\jostroff\AppData\Roaming\npm
   
-  `M2_HOME = C:\opt\apache\apache-maven-3.3.9`
+  JAVA_HOME = C:\Program Files\Java\jdk1.8.0_241
   
-  `DOCKER_TOOLBOX_INSTALL_PATH = C:\Program Files\Docker Toolbox`
+  M2_HOME = C:\opt\apache\apache-maven-3.3.9
   
-  `Install Angular on STS as well.`
+  DOCKER_TOOLBOX_INSTALL_PATH = C:\Program Files\Docker Toolbox
   
-  `Make sure also that, before running any Angular application installed on your own machine, you also do "npm install", and then "ng serve" in terminal on that project.`
+  Install Angular on STS as well.
   
-  `Run "ng serve --open" on terminal.`
+  Make sure also that, before running any Angular application installed on your own machine, you also do "npm install", and then "ng serve" in terminal on that project.
   
+  Run "ng serve --open" on terminal.
+```
     
 
 ## Development server
