@@ -27,7 +27,7 @@ angular-client11 has:
 ## Installing Angular
 
 Notes - In order to run this application, you need the following:
-  
+
   npm installation
   
   nodejs 10.13 or higher - https://nodejs.org/dist/latest-v10.x/		(node-v10.22.1-win-x64.msi)
