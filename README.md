@@ -28,27 +28,27 @@ angular-client11 has:
 
 Notes - In order to run this application, you need the following:
 
-     * 		npm installation
+  npm installation
      
-     * 		nodejs 10.13 or higher - https://nodejs.org/dist/latest-v10.x/		(node-v10.22.1-win-x64.msi)
+  nodejs 10.13 or higher - https://nodejs.org/dist/latest-v10.x/		(node-v10.22.1-win-x64.msi)
      
-     * 		npm install @angular/cli
+  npm install @angular/cli
      
-     * 		Make sure Control Panel\System and Security\System -> Advanced system settings ->
+  Make sure Control Panel\System and Security\System -> Advanced system settings ->
      
-     *    PATH = C:\Users\jostroff\AppData\Roaming\npm
+  PATH = C:\Users\jostroff\AppData\Roaming\npm
      
-     *    JAVA_HOME = C:\Program Files\Java\jdk1.8.0_241
+  JAVA_HOME = C:\Program Files\Java\jdk1.8.0_241
      
-     *    M2_HOME = C:\opt\apache\apache-maven-3.3.9
+  M2_HOME = C:\opt\apache\apache-maven-3.3.9
      
-     *    DOCKER_TOOLBOX_INSTALL_PATH = C:\Program Files\Docker Toolbox
+  DOCKER_TOOLBOX_INSTALL_PATH = C:\Program Files\Docker Toolbox
      
-     *    Install Angular on STS as well.
+  Install Angular on STS as well.
     
-     *    Make sure also that, before running any Angular application installed on your own machine, you also do "npm install", and then "ng serve" in terminal on that project.
+  Make sure also that, before running any Angular application installed on your own machine, you also do "npm install", and then "ng serve" in terminal on that project.
     
-     *    Run "ng serve --open" on terminal.
+  Run "ng serve --open" on terminal.
     
     
 
