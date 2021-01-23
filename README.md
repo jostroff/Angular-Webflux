@@ -6,9 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 The purpose of this project was to test variable endpoints with both the Spring Webflux and Angular frameworks. Since the controller sends /user/ as a flux endpoint, and /user/{id} as a variable Mono endpoint, this project illustrates how to work with both in terms of displaying the concepts in their respective areas of change.
 
-Specifically:
-
-angular-client11 has:
+Specifically, angular-client11 has:
 
 	service/user.service.ts -> find() - NUMBER
   
