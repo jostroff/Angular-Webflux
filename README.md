@@ -45,7 +45,9 @@ Notes - In order to run this application, you need the following:
   
   Install Angular on STS as well.
   
-  Before running any Angular application installed on machine, also do "npm update", "npm install", "npm 
+  Before running any Angular application installed on machine, also do "npm update", "npm install", "npm audit fix --force".
+  
+  May have to go to package.json, rxjs, change "^6.0.0" or something to "6.0.0".
   
   Run "ng serve --open" on terminal.
 ```
