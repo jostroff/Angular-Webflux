@@ -31,7 +31,7 @@ Notes - In order to run this application, you need the following:
   
   nodejs 10.13 or higher - https://nodejs.org/dist/latest-v10.x/		(node-v10.22.1-win-x64.msi)
   
-  npm install @angular/cli
+  npm install @angular/cli    (or instead do    > npm install -g @angular/cli@latest)
   
   Make sure Control Panel\System and Security\System -> Advanced system settings ->
   
